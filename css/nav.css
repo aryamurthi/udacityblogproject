@@ -1,0 +1,27 @@
+.nav{
+    border-width: 3px;
+    background-color: transparent;
+    border-style: none;
+    width:auto;
+    height:8vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5em;
+   
+    
+}
+#navItem{
+    display:inline-flex;
+    padding: 10px;
+    border: seashell 2px solid;
+    border-radius: 0.5em;
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+#navItem:hover{
+    background: thistle;
+}

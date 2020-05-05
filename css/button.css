@@ -1,0 +1,17 @@
+button{
+    display:inline-flex;
+    background-color: azure;
+    width: auto;
+    height:auto;
+    padding:10px;
+    margin-left: 10em;
+    margin-right:10em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+button:hover{
+    background-color: thistle;
+}
