@@ -57,12 +57,12 @@ footer {
   font-family: "Courier New", Courier, monospace;
 }
 
-figcaption{
-    text-decoration: underline whitesmoke;
-    display:flex;
-    background-color: transparent;
-    color: navajowhite;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+figcaption {
+  text-decoration: underline whitesmoke;
+  display: flex;
+  background-color: transparent;
+  color: navajowhite;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
 }
