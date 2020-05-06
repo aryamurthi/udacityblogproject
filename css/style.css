@@ -1,62 +1,68 @@
-
 @import url("blogGrid.css");
 @import url("button.css");
 @import url("nav.css");
 @import url("pageStyles.css");
 
-*{
-    background-color: slategray;
+* {
+  background-color: slategray;
 }
-.container{
-    display: grid;
-    border-color: black;
-    border-radius: 0.5em;
-    border-width: 3px;
-    border-style: solid;
-    grid-template-areas: 
+.container {
+  display: grid;
+  border-color: black;
+  border-radius: 0.5em;
+  border-width: 3px;
+  border-style: solid;
+  grid-template-areas:
     "top"
-    "posts" 
+    "posts"
     "ft";
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    margin-bottom: 5em;
-    height: 100vh;
-    background-image: url('bird.jpg');
-    background-size: cover;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 5em;
+  height: 100vh;
+  background-image: url("bird.jpg");
+  background-size: cover;
 }
 
-a{
+a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.title {
+  border-width: 2px;
+  border-style: solid;
+  border-color: seashell;
+  display: flex;
+  font-size: 45px;
+  font-weight: 600;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  grid-area: top;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 0.5em;
+}
+footer {
+  display: block;
+  border: seashell 2px solid;
+  width: auto;
+  text-align: center;
+  border-radius: 0.5em;
+  padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+figcaption{
+    text-decoration: underline whitesmoke;
     display:flex;
-    text-decoration: none;
-    color: black;
     background-color: transparent;
-    justify-content: center;
-}
-
-.title{
-    border-width: 2px;
-    border-style: solid;
-    border-color: seashell;
-    display: flex;
-    font-size: 45px;
-    font-weight: 600;
-    padding: 10px;
-    justify-content: center;
+    color: navajowhite;
     align-items: center;
-    grid-area: top;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 0.5em;
-}
-.footer{
-    display: block;
-    border: seashell 2px solid;
-    width: auto;
-    text-align: center;
-    border-radius: 0.5em;
-    padding: 5px;
+    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
 }
-
-
-
