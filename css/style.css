@@ -33,6 +33,12 @@ a {
   justify-content: center;
 }
 
+p{
+  color:navajowhite;
+}
+
+
+
 .title {
   border-width: 2px;
   border-style: solid;
